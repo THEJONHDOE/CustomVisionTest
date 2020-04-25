@@ -11,7 +11,7 @@ COPY app /app
 # RUN pip install opencv-python-headless
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 80
 
 # Set the working directory
 WORKDIR /app
